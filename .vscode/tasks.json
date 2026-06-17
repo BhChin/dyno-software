@@ -7,9 +7,10 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${workspaceFolder}\\.vscode\\teensy-simulator.cpp",
+                "${workspaceFolder}\\.vscode\\dyno.cpp",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}\\.vscode\\teensy-simulator.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
